@@ -117,17 +117,26 @@ public class ActionMasterTest
     }
 
     [Test]
-    public void T16Bowl10Bowl5InTurn10ReturnsEndGame()
+    public void T17Bowl10Bowl10InTurn10ReturnsReset()
     {
         Perform18Bowls();
         actionMaster.Bowl(10);
-        Assert.AreEqual(endGame, actionMaster.Bowl(5));
+        Assert.AreEqual(reset, actionMaster.Bowl(10));
     }
 
     [Test]
-    public void T17Bowl10Bowl10InTurn10ReturnsEndGame()
+    public void T18Bowl10Bowl5InTurn10ReturnsTidy()
     {
         Perform18Bowls();
+        actionMaster.Bowl(10);
+        Assert.AreEqual(tidy, actionMaster.Bowl(5));
+    }
+
+    [Test]
+    public void T19Bowl10Bowl10Bowl10InTurn10ReturnsEndGame()
+    {
+        Perform18Bowls();
+        actionMaster.Bowl(10);
         actionMaster.Bowl(10);
         Assert.AreEqual(endGame, actionMaster.Bowl(10));
     }
