@@ -37,7 +37,7 @@ public class ActionMaster : MonoBehaviour
 
         if (pins == 10)
         {
-            bowlNumber += 2;
+            bowlNumber += (bowlIsOdd ? 2 : 1);
             return Action.EndTurn;
         }
         else if (pins >= 0 && pins < 10)
@@ -67,4 +67,5 @@ public class ActionMaster : MonoBehaviour
     {
         return (bowlResults[18] == 10 || bowlResults[19] == 10);
     }
+
 }

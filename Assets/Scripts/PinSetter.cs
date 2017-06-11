@@ -10,14 +10,17 @@ public class PinSetter : MonoBehaviour {
     public float distanceToRaise = 35f;
     public GameObject pinSet;
 
+    private ActionMaster actionMaster = new ActionMaster();
     private float lastChangeTime;
     private bool ballEnteredBox = false;
     private Ball ball;
     private Pin[] standingPins;
+    private Animator animator;
 
 	// Use this for initialization
 	void Start () {
-        ball = GameObject.FindObjectOfType<Ball>();
+        ball = FindObjectOfType<Ball>();
+        animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -74,6 +77,7 @@ public class PinSetter : MonoBehaviour {
         ball.Reset();
         lastStandingCount = -1;
         standingPinsDisplay.color = Color.green;
+        PlayAnimation();
     }
 
     void OnTriggerEnter(Collider collider)
@@ -108,7 +112,6 @@ public class PinSetter : MonoBehaviour {
 
     public void LowerPins ()
     {
-        Debug.Log("lowering pins");
         Pin[] pins = GetStandingPins();
         Debug.Log("pins to lower: " + pins);
         foreach (Pin pin in pins)
@@ -121,7 +124,6 @@ public class PinSetter : MonoBehaviour {
 
     public void RenewPins()
     {
-        Debug.Log("renewing");
         GameObject pins = GameObject.Find("Pins");
         if (pins != null) Destroy(pins);
         Instantiate(pinSet, new Vector3(0, 0, 1829), Quaternion.identity);
@@ -151,5 +153,12 @@ public class PinSetter : MonoBehaviour {
         objectRigidbody.constraints &= ~RigidbodyConstraints.FreezePositionZ;
     }
 
-
+    private void PlayAnimation()
+    {
+        ActionMaster.Action action = new ActionMaster.Action();
+        action = actionMaster.Bowl(10 - CountStanding());
+        if (action == ActionMaster.Action.Tidy)        { animator.SetTrigger("tidy_trigger");  }
+        if (action == ActionMaster.Action.EndTurn)     { animator.SetTrigger("reset_trigger"); }
+        if (action == ActionMaster.Action.Reset)       { animator.SetTrigger("reset_trigger"); }
+    }
 }

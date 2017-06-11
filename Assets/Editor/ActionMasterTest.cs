@@ -140,4 +140,28 @@ public class ActionMasterTest
         actionMaster.Bowl(10);
         Assert.AreEqual(endGame, actionMaster.Bowl(10));
     }
+
+    [Test]
+    public void T20Bowl0Bowl10ReturnsEndTurn()
+    {
+        actionMaster.Bowl(0);
+        Assert.AreEqual(actionMaster.Bowl(10), endTurn);
+    }
+
+    [Test]
+    public void T21Bowl0Bowl10Bowl3ReturnsTidy()
+    {
+        actionMaster.Bowl(0);
+        actionMaster.Bowl(10);
+        Assert.AreEqual(actionMaster.Bowl(3), tidy);
+    }
+
+    [Test]
+    public void T22Bowl10Bowl10Bowl10InTurn10ReturnsEndGame()
+    {
+        Perform18Bowls();
+        Assert.AreEqual(actionMaster.Bowl(10), reset);
+        Assert.AreEqual(actionMaster.Bowl(10), reset);
+        Assert.AreEqual(actionMaster.Bowl(10), endGame);
+    }
 }
