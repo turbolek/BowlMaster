@@ -16,19 +16,22 @@ public class PinSetter : MonoBehaviour {
     private Ball ball;
     private Pin[] standingPins;
     private Animator animator;
+    private GutterBall gutterBall;
 
 	// Use this for initialization
 	void Start () {
         ball = FindObjectOfType<Ball>();
         animator = GetComponent<Animator>();
+        gutterBall = FindObjectOfType<GutterBall>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
         standingPinsDisplay.text = CountStanding().ToString();
-        if (ballEnteredBox)
+        if (gutterBall.ballLeftBox || ballEnteredBox)
         {
             CheckStanding();
+            standingPinsDisplay.color = Color.red;
         } 
 	}
 
@@ -73,8 +76,9 @@ public class PinSetter : MonoBehaviour {
 
     void PinsHaveSettled ()
     {
-        ballEnteredBox = false;
         ball.Reset();
+        gutterBall.ballLeftBox = false;
+        ballEnteredBox = false;
         lastStandingCount = -1;
         standingPinsDisplay.color = Color.green;
         PlayAnimation();
@@ -85,7 +89,6 @@ public class PinSetter : MonoBehaviour {
         if (collider.gameObject.GetComponent<Ball>())
         {
             ballEnteredBox = true;
-            standingPinsDisplay.color = Color.red;
         }
     }
 
