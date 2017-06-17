@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 506, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 504, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 50
+  controlID: 11
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 971
     height: 635
-  m_MinSize: {x: 404, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 404, y: 342}
+  m_MaxSize: {x: 8004, y: 8042}
   vertical: 1
-  controlID: 51
+  controlID: 12
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 13
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,15 +229,15 @@ MonoBehaviour:
     y: 285
     width: 971
     height: 350
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -368,23 +368,23 @@ MonoBehaviour:
     height: 264
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ee060000
+    m_SelectedIDs: 366e0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 42b4feffa4b6feff80bbfeff72befeff54c4fefff6c7feffa2cbfeff3ecffefff8d2feff52d6fefffcd9feff60ddfeffbae0fefffee3feffaae6feff02eafeff52edfeff26f0feffb8f2fefff0f5feff2ef9feff5afcfeff92fffeffccfbffffcefbffff000000005e260000
+    m_ExpandedIDs: f893fdffa497fdff529bfdff069ffdffb2a2fdff62a6fdffeaa9fdffe4acfdffdcaffdff36b2fdff8eb4fdffdeb6fdff82bafdff36befdffc0c1fdff46c5fdff44c8fdff24cbfdff0ccefdffead0fdff40d3fdffc6d6fdff54dafdffdaddfdff58e1fdffd8e4fdff20e7fdff88eafdffe2ecfdff2eeffdff9af2fdff78f5fdff70f9fdff66fcfdff38fffdff7801feffe804feffd807feff940afeff240efeff8c11feff7414feff4c17feff9619feff801cfeff521ffeff3e22fefff624feffd627feff462bfeff0e2efeffe830feffc633feffa436feff8639feff783cfeff5a3ffeff4242feffb245feff1c49feff9c4cfeff0c50feffd052feff4656feff5e5bfeff7a5ffefff262feff6666feffd669feffd46cfeff9a6ffeffb272feff8275feff1479feff867cfeff907ffeff4882feffea85feff4089feffac8cfeffb48ffeff6692feffbc94feff0e98fefffc9afeffda9dfeff2ca1feff84a4feffe2a6feff34a9fefff2abfeff4aaffeffb4b1feff30b5feff88b7feffe8bafeff42bdfeffacc0feff04c3feff70c6feffc6c9feff30cdfeff68d0feffc4d3feff08d6feffe6d8feff9cdbfeff94defeff3ae1feff7ce4feff7ce7feff18eafeff5cedfeff96f0feffc6f3feffd8f6feff06fafeff3afdfeff4201fffffa03ffff8a06ffff8c0fffff8a18ffff5619ffff1a63ffff0264ffff0ef5ffffcefbffff000000006426000068260000b6260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GutterBall
-      m_OriginalName: GutterBall
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9914
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -424,9 +424,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.3806057, y: 28.075977, z: 21.628904}
+    m_Target: {x: 150.94748, y: 205.58344, z: 1770.7406}
     speed: 2
-    m_Value: {x: -4.3806057, y: 28.075977, z: 21.628904}
+    m_Value: {x: 150.94748, y: 205.58344, z: 1770.7406}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -449,13 +449,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.45005026, y: 0.118064106, z: -0.060167644, w: 0.88311696}
+    m_Target: {x: -0.32495195, y: -0.64102954, z: 0.3450615, w: -0.603672}
     speed: 2
-    m_Value: {x: 0.45005026, y: 0.118064106, z: -0.060167644, w: 0.88311696}
+    m_Value: {x: -0.32495195, y: -0.64102954, z: 0.3450615, w: -0.603672}
   m_Size:
-    m_Target: 76.970634
+    m_Target: 1041.3695
     speed: 2
-    m_Value: 76.970634
+    m_Value: 1041.3695
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -569,7 +569,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 60}
     m_SelectedIDs: 2c250000
     m_LastClickedID: 9516
-    m_ExpandedIDs: 00000000022500008c250000a2250000ae25000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000022500008e250000a4250000b025000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,7 +597,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000022500008c250000a2250000ae250000
+    m_ExpandedIDs: 00000000022500008e250000a4250000b0250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -622,8 +622,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 366e0000
+    m_LastClickedInstanceID: 28214
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000025000000000000ca250000cc250000d0250000d6250000
     m_RenameOverlay:
@@ -675,9 +675,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 456
-    width: 1086
-    height: 250
+    y: 377
+    width: 969
+    height: 329
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -861,7 +861,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/turbolek/Documents/repos/Unity/Bowlmaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.3516695
+      duration: 0.8938731
       messages: 
       output: 
       stacktrace: 
@@ -872,7 +872,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.3420216
+      duration: 0.3839983
       messages: 
       output: 
       stacktrace: 
@@ -883,7 +883,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0099684
+      duration: 0.0179568
       messages: 
       output: 
       stacktrace: 
@@ -894,7 +894,7 @@ MonoBehaviour:
       name: T01Bowl10ReturnsEndTurn
       fullName: ActionMasterTest.T01Bowl10ReturnsEndTurn
       resultStatus: 1
-      duration: 0.0099241
+      duration: 0.0141425
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -907,7 +907,7 @@ MonoBehaviour:
       name: T02LessThan0PinsThrowsInvalidPinsException
       fullName: ActionMasterTest.T02LessThan0PinsThrowsInvalidPinsException
       resultStatus: 1
-      duration: 0.0130806
+      duration: 0.0113862
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -920,7 +920,7 @@ MonoBehaviour:
       name: T03MoreThan10PinsThrowsInvalidPinsException
       fullName: ActionMasterTest.T03MoreThan10PinsThrowsInvalidPinsException
       resultStatus: 1
-      duration: 0.0115495
+      duration: 0.0120631
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -933,7 +933,7 @@ MonoBehaviour:
       name: T04Bowl8ReturnsTidy
       fullName: ActionMasterTest.T04Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0109607
+      duration: 0.0131558
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -946,7 +946,7 @@ MonoBehaviour:
       name: T05Bowl2Bowl8ReturnsEndTurn
       fullName: ActionMasterTest.T05Bowl2Bowl8ReturnsEndTurn
       resultStatus: 1
-      duration: 0.0114426
+      duration: 0.0118817
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -959,7 +959,7 @@ MonoBehaviour:
       name: T06Bowl0ReturnsTidy
       fullName: ActionMasterTest.T06Bowl0ReturnsTidy
       resultStatus: 1
-      duration: 0.0118705
+      duration: 0.0117669
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -972,7 +972,7 @@ MonoBehaviour:
       name: T07Bowl0Bowl0ReturnsEndTurn
       fullName: ActionMasterTest.T07Bowl0Bowl0ReturnsEndTurn
       resultStatus: 1
-      duration: 0.0111147
+      duration: 0.0117724
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -985,7 +985,7 @@ MonoBehaviour:
       name: T08Bowl0Bowl0InTurn10ReturnsEndGame
       fullName: ActionMasterTest.T08Bowl0Bowl0InTurn10ReturnsEndGame
       resultStatus: 1
-      duration: 0.0085814
+      duration: 0.0117949
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -998,7 +998,7 @@ MonoBehaviour:
       name: T09Bowl10InTurn10ReturnsReset
       fullName: ActionMasterTest.T09Bowl10InTurn10ReturnsReset
       resultStatus: 1
-      duration: 0.0087652
+      duration: 0.0116227
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1011,7 +1011,7 @@ MonoBehaviour:
       name: T10Bowl5Bowl5InTurn10ReturnsReset
       fullName: ActionMasterTest.T10Bowl5Bowl5InTurn10ReturnsReset
       resultStatus: 1
-      duration: 0.0131515
+      duration: 0.0124764
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1024,7 +1024,7 @@ MonoBehaviour:
       name: T11Bowl10Bowl10InTurn10ReturnsReset
       fullName: ActionMasterTest.T11Bowl10Bowl10InTurn10ReturnsReset
       resultStatus: 1
-      duration: 0.012553
+      duration: 0.0118821
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1037,7 +1037,7 @@ MonoBehaviour:
       name: T12Bowl10Bowl5InTurn10ReturnsTidy
       fullName: ActionMasterTest.T12Bowl10Bowl5InTurn10ReturnsTidy
       resultStatus: 1
-      duration: 0.0121289
+      duration: 0.0115845
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1050,7 +1050,7 @@ MonoBehaviour:
       name: T13Bowl10Bowl10Bowl10InTurn10ReturnsEndGame
       fullName: ActionMasterTest.T13Bowl10Bowl10Bowl10InTurn10ReturnsEndGame
       resultStatus: 1
-      duration: 0.0122777
+      duration: 0.0122512
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1063,7 +1063,7 @@ MonoBehaviour:
       name: T14Bowl0Bowl10ReturnsEndTurn
       fullName: ActionMasterTest.T14Bowl0Bowl10ReturnsEndTurn
       resultStatus: 1
-      duration: 0.0113675
+      duration: 0.0115518
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1076,7 +1076,7 @@ MonoBehaviour:
       name: T15Bowl0Bowl10Bowl3ReturnsTidy
       fullName: ActionMasterTest.T15Bowl0Bowl10Bowl3ReturnsTidy
       resultStatus: 1
-      duration: 0.0112822
+      duration: 0.0126916
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1085,19 +1085,332 @@ MonoBehaviour:
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: 'T08Bowl0Bowl0InTurn10ReturnsEndGame (0.009s)
-
-      ---
-
-      You are trying to create a MonoBehaviour using the ''new'' keyword.  This is
-      not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
-      your script can inherit from ScriptableObject or no base class at all'
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest]'
+      name: ScoreMasterTest
+      fullName: ScoreMasterTest
+      resultStatus: 1
+      duration: 0.4864792
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T00PassingTest]'
+      name: T00PassingTest
+      fullName: ScoreMasterTest.T00PassingTest
+      resultStatus: 1
+      duration: 0.0036535
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T01Bowl23]'
+      name: T01Bowl23
+      fullName: ScoreMasterTest.T01Bowl23
+      resultStatus: 1
+      duration: 0.0050801
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T02Bowl234]'
+      name: T02Bowl234
+      fullName: ScoreMasterTest.T02Bowl234
+      resultStatus: 1
+      duration: 0.0043275
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T03Bowl2345]'
+      name: T03Bowl2345
+      fullName: ScoreMasterTest.T03Bowl2345
+      resultStatus: 1
+      duration: 0.003555
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T04Bowl23456]'
+      name: T04Bowl23456
+      fullName: ScoreMasterTest.T04Bowl23456
+      resultStatus: 1
+      duration: 0.0036973
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T05Bowl234561]'
+      name: T05Bowl234561
+      fullName: ScoreMasterTest.T05Bowl234561
+      resultStatus: 1
+      duration: 0.0037528
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T06Bowl2345612]'
+      name: T06Bowl2345612
+      fullName: ScoreMasterTest.T06Bowl2345612
+      resultStatus: 1
+      duration: 0.0060532
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T07BowlX1]'
+      name: T07BowlX1
+      fullName: ScoreMasterTest.T07BowlX1
+      resultStatus: 1
+      duration: 0.0035867
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T08Bowl19]'
+      name: T08Bowl19
+      fullName: ScoreMasterTest.T08Bowl19
+      resultStatus: 1
+      duration: 0.0033688
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T09Bowl123455]'
+      name: T09Bowl123455
+      fullName: ScoreMasterTest.T09Bowl123455
+      resultStatus: 1
+      duration: 0.0037794
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T10SpareBonus]'
+      name: T10SpareBonus
+      fullName: ScoreMasterTest.T10SpareBonus
+      resultStatus: 1
+      duration: 0.0033983
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T11SpareBonus2]'
+      name: T11SpareBonus2
+      fullName: ScoreMasterTest.T11SpareBonus2
+      resultStatus: 1
+      duration: 0.0037024
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T12StrikeBonus]'
+      name: T12StrikeBonus
+      fullName: ScoreMasterTest.T12StrikeBonus
+      resultStatus: 1
+      duration: 0.0035643
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T13StrikeBonus3]'
+      name: T13StrikeBonus3
+      fullName: ScoreMasterTest.T13StrikeBonus3
+      resultStatus: 1
+      duration: 0.0034294
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T14MultiStrikes]'
+      name: T14MultiStrikes
+      fullName: ScoreMasterTest.T14MultiStrikes
+      resultStatus: 1
+      duration: 0.0037014
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T15MultiStrikes3]'
+      name: T15MultiStrikes3
+      fullName: ScoreMasterTest.T15MultiStrikes3
+      resultStatus: 1
+      duration: 0.003429
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T16TestGutterGame]'
+      name: T16TestGutterGame
+      fullName: ScoreMasterTest.T16TestGutterGame
+      resultStatus: 1
+      duration: 0.0045356
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T17TestAllOnes]'
+      name: T17TestAllOnes
+      fullName: ScoreMasterTest.T17TestAllOnes
+      resultStatus: 1
+      duration: 0.0036739
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T18TestAllStrikes]'
+      name: T18TestAllStrikes
+      fullName: ScoreMasterTest.T18TestAllStrikes
+      resultStatus: 1
+      duration: 0.0041704
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T19TestImmediateStrikeBonus]'
+      name: T19TestImmediateStrikeBonus
+      fullName: ScoreMasterTest.T19TestImmediateStrikeBonus
+      resultStatus: 1
+      duration: 0.0040593
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T20SpareInLastFrame]'
+      name: T20SpareInLastFrame
+      fullName: ScoreMasterTest.T20SpareInLastFrame
+      resultStatus: 1
+      duration: 0.0039954
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][T21StrikeInLastFrame]'
+      name: T21StrikeInLastFrame
+      fullName: ScoreMasterTest.T21StrikeInLastFrame
+      resultStatus: 1
+      duration: 0.004468
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][TG02GoldenCopyA]'
+      name: TG02GoldenCopyA
+      fullName: ScoreMasterTest.TG02GoldenCopyA
+      resultStatus: 1
+      duration: 0.0045464
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][TG03GoldenCopyB1of3]'
+      name: TG03GoldenCopyB1of3
+      fullName: ScoreMasterTest.TG03GoldenCopyB1of3
+      resultStatus: 1
+      duration: 0.0038191
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][TG03GoldenCopyB2of3]'
+      name: TG03GoldenCopyB2of3
+      fullName: ScoreMasterTest.TG03GoldenCopyB2of3
+      resultStatus: 1
+      duration: 0.0038331
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][TG03GoldenCopyB3of3]'
+      name: TG03GoldenCopyB3of3
+      fullName: ScoreMasterTest.TG03GoldenCopyB3of3
+      resultStatus: 1
+      duration: 0.0039002
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][TG03GoldenCopyC1of3]'
+      name: TG03GoldenCopyC1of3
+      fullName: ScoreMasterTest.TG03GoldenCopyC1of3
+      resultStatus: 1
+      duration: 0.0038354
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ScoreMasterTest][TG03GoldenCopyC2of3]'
+      name: TG03GoldenCopyC2of3
+      fullName: ScoreMasterTest.TG03GoldenCopyC2of3
+      resultStatus: 1
+      duration: 0.0040267
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T21StrikeInLastFrame (0.004s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9bc74ae9
-      m_LastClickedID: -380975205
-      m_ExpandedIDs: 96342cd4be94dafbfe11d574161c9f7fffffff7f
+      m_SelectedIDs: 2954b035
+      m_LastClickedID: 900748329
+      m_ExpandedIDs: 96342cd4be94dafbfe11d574ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

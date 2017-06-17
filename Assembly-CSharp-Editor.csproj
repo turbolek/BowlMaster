@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\ActionMasterTest.cs" />
+     <Compile Include="Assets\Editor\ScoreMasterTest.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/turbolek/Documents/repos/Unity/Bowlmaster/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
