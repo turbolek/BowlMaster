@@ -5,6 +5,7 @@ public class Ball : MonoBehaviour {
     private Rigidbody rigidbody;
     private AudioSource audioSource;
     private Vector3 startPosition, initialVelocity, initialAngularVelocity;
+    private Quaternion startRotation;
 
     public float velocity;
     public bool launched;
@@ -23,6 +24,7 @@ public class Ball : MonoBehaviour {
     {
         rigidbody = GetComponent<Rigidbody>();
         startPosition = transform.position;
+        startRotation = transform.rotation;
         initialVelocity = rigidbody.velocity;
         initialAngularVelocity = rigidbody.angularVelocity;
     }
@@ -41,6 +43,7 @@ public class Ball : MonoBehaviour {
         rigidbody.useGravity = false;
         launched = false;
         transform.position = startPosition;
+        transform.rotation = startRotation;
         rigidbody.velocity = initialVelocity;
         rigidbody.angularVelocity = initialAngularVelocity;
     }

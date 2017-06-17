@@ -106,6 +106,7 @@ public class PinSetter : MonoBehaviour {
         {
 
             FreezeObject(pin.gameObject);
+            pin.transform.SetPositionAndRotation(pin.transform.position, Quaternion.Euler(0, 0, 0));
             pin.transform.Translate(new Vector3(0,distanceToRaise,0));
         }
     }
