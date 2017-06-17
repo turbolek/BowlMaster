@@ -30,6 +30,7 @@ public class PinSetter : MonoBehaviour {
         standingPinsDisplay.text = CountStanding().ToString();
         if (gutterBall.ballLeftBox || ballEnteredBox)
         {
+            Debug.Log("Condition : "+ gutterBall.ballLeftBox + " || " + ballEnteredBox);
             CheckStanding();
             standingPinsDisplay.color = Color.red;
         } 
@@ -100,12 +101,9 @@ public class PinSetter : MonoBehaviour {
 
     public void RaisePins ()
     {
-        Debug.Log("raising pins");
         Pin[] pins = GetStandingPins();
-        Debug.Log("pins to raise: " + pins);
         foreach (Pin pin in pins)
         {
-            Debug.Log("raising pin: " + pin);
 
             FreezeObject(pin.gameObject);
             pin.transform.Translate(new Vector3(0,distanceToRaise,0));
@@ -116,10 +114,8 @@ public class PinSetter : MonoBehaviour {
     public void LowerPins ()
     {
         Pin[] pins = GetStandingPins();
-        Debug.Log("pins to lower: " + pins);
         foreach (Pin pin in pins)
         {
-            Debug.Log("lowering pin: " + pin);
             pin.transform.Translate(new Vector3(0, -distanceToRaise, 0));
             UnfreezeObject(pin.gameObject);
         }
