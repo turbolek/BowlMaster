@@ -17,6 +17,9 @@ public class GutterBall : MonoBehaviour {
 
     void OnTriggerExit(Collider collider)
     {
-        ballLeftBox = true;
+        if (collider.gameObject.GetComponent<Ball>() != null)
+        {
+            ballLeftBox = true;
+        }
     }
 }
