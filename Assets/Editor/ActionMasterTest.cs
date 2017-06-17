@@ -3,6 +3,7 @@ using UnityEditor;
 using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
 
 [TestFixture]
 public class ActionMasterTest
@@ -11,22 +12,13 @@ public class ActionMasterTest
     private ActionMaster.Action tidy = ActionMaster.Action.Tidy;
     private ActionMaster.Action endGame = ActionMaster.Action.EndGame;
     private ActionMaster.Action reset = ActionMaster.Action.Reset;
-    private ActionMaster actionMaster;
+    private List<int> pinFalls;
 
     [SetUp]
-    public void SetUp()
+    public void Setup()
     {
-        actionMaster = new ActionMaster();
-    }
-
-    private void Perform18Bowls()
-    {
-        for (int i = 1; i < 10; i++)
-        {
-            actionMaster.Bowl(0);
-            actionMaster.Bowl(0);
-        }
-    }
+        pinFalls = new List<int>();
+    } 
 
     [Test]
     public void T00PassingTest()
@@ -37,16 +29,18 @@ public class ActionMasterTest
     [Test]
     public void T01Bowl10ReturnsEndTurn()
     {
-        Assert.AreEqual(endTurn, actionMaster.Bowl(10) );
+        pinFalls.Add(10);
+        Assert.AreEqual(endTurn, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
-       public void T02LessThan0PinsThrowsInvalidPinsException()
+    public void T02LessThan0PinsThrowsInvalidPinsException()
     {
-        
+
         try
         {
-            actionMaster.Bowl(-1);
+            pinFalls.Add(-1);
+            ActionMaster.NextAction(pinFalls);
         }
         catch (UnityException exception)
         {
@@ -59,7 +53,8 @@ public class ActionMasterTest
     {
         try
         {
-            actionMaster.Bowl(11);
+            pinFalls.Add(11);
+            ActionMaster.NextAction(pinFalls);
         }
         catch (UnityException exception)
         {
@@ -70,98 +65,94 @@ public class ActionMasterTest
     [Test]
     public void T04Bowl8ReturnsTidy()
     {
-        Assert.AreEqual(tidy, actionMaster.Bowl(8));
+        pinFalls.Add(8);
+        Assert.AreEqual(tidy, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
     public void T05Bowl2Bowl8ReturnsEndTurn()
     {
-        actionMaster.Bowl(2);
-        Assert.AreEqual(endTurn, actionMaster.Bowl(8));
+        int[] bowls = { 1, 2 };
+        pinFalls.AddRange(bowls) ;
+        Assert.AreEqual(endTurn, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
     public void T06Bowl0ReturnsTidy()
     {
-        Assert.AreEqual(tidy, actionMaster.Bowl(0));
+        pinFalls.Add(0);
+        Assert.AreEqual(tidy, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
     public void T07Bowl0Bowl0ReturnsEndTurn()
     {
-        actionMaster.Bowl(0);
-        Assert.AreEqual(endTurn, actionMaster.Bowl(0));
+        int[] bowls = { 0, 0 };
+        pinFalls.AddRange(bowls);
+        Assert.AreEqual(endTurn, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
-    public void T13Bowl0Bowl0InTurn10ReturnsEndGame()
+    public void T08Bowl0Bowl0InTurn10ReturnsEndGame()
     {
-        Perform18Bowls();
-        actionMaster.Bowl(0);
-        Assert.AreEqual(endGame, actionMaster.Bowl(0));
+        int[] bowls = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        pinFalls.AddRange(bowls);
+        Assert.AreEqual(endGame, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
-    public void T14Bowl10InTurn10ReturnsEndTurn()
+    public void T09Bowl10InTurn10ReturnsReset()
     {
-        Perform18Bowls();
-        Assert.AreEqual(reset, actionMaster.Bowl(10));
+        int[] bowls = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10 };
+        pinFalls.AddRange(bowls);
+        Assert.AreEqual(reset, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
-    public void T15Bowl5Bowl5InTurn10ReturnsEndTurn()
+    public void T10Bowl5Bowl5InTurn10ReturnsReset()
     {
-        Perform18Bowls();
-        actionMaster.Bowl(5);
-        Assert.AreEqual(reset, actionMaster.Bowl(5));
+        int[] bowls = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5 };
+        pinFalls.AddRange(bowls);
+        Assert.AreEqual(reset, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
-    public void T17Bowl10Bowl10InTurn10ReturnsReset()
+    public void T11Bowl10Bowl10InTurn10ReturnsReset()
     {
-        Perform18Bowls();
-        actionMaster.Bowl(10);
-        Assert.AreEqual(reset, actionMaster.Bowl(10));
+        int[] bowls = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10};
+        pinFalls.AddRange(bowls);
+        Assert.AreEqual(reset, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
-    public void T18Bowl10Bowl5InTurn10ReturnsTidy()
+    public void T12Bowl10Bowl5InTurn10ReturnsTidy()
     {
-        Perform18Bowls();
-        actionMaster.Bowl(10);
-        Assert.AreEqual(tidy, actionMaster.Bowl(5));
+        int[] bowls = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 5};
+        pinFalls.AddRange(bowls);
+        Assert.AreEqual(tidy, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
-    public void T19Bowl10Bowl10Bowl10InTurn10ReturnsEndGame()
+    public void T13Bowl10Bowl10Bowl10InTurn10ReturnsEndGame()
     {
-        Perform18Bowls();
-        actionMaster.Bowl(10);
-        actionMaster.Bowl(10);
-        Assert.AreEqual(endGame, actionMaster.Bowl(10));
+        int[] bowls = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10};
+        pinFalls.AddRange(bowls);
+        Assert.AreEqual(endGame, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
-    public void T20Bowl0Bowl10ReturnsEndTurn()
+    public void T14Bowl0Bowl10ReturnsEndTurn()
     {
-        actionMaster.Bowl(0);
-        Assert.AreEqual(actionMaster.Bowl(10), endTurn);
+        int[] bowls = {0, 10};
+        pinFalls.AddRange(bowls);
+        Assert.AreEqual(endTurn, ActionMaster.NextAction(pinFalls));
     }
 
     [Test]
-    public void T21Bowl0Bowl10Bowl3ReturnsTidy()
+    public void T15Bowl0Bowl10Bowl3ReturnsTidy()
     {
-        actionMaster.Bowl(0);
-        actionMaster.Bowl(10);
-        Assert.AreEqual(actionMaster.Bowl(3), tidy);
-    }
-
-    [Test]
-    public void T22Bowl10Bowl10Bowl10InTurn10ReturnsEndGame()
-    {
-        Perform18Bowls();
-        Assert.AreEqual(actionMaster.Bowl(10), reset);
-        Assert.AreEqual(actionMaster.Bowl(10), reset);
-        Assert.AreEqual(actionMaster.Bowl(10), endGame);
+        int[] bowls = { 0, 0, 3};
+        pinFalls.AddRange(bowls);
+        Assert.AreEqual(tidy, ActionMaster.NextAction(pinFalls));
     }
 }
