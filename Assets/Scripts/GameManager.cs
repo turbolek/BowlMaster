@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
     private Ball ball;
     private GutterBall gutterBall;
     private PinCounter pinCounter;
+    private ScoreDisplay scoreDisplay;
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour {
         ball = FindObjectOfType<Ball>();
         gutterBall = FindObjectOfType<GutterBall>();
         pinCounter = FindObjectOfType<PinCounter>();
+        scoreDisplay = FindObjectOfType<ScoreDisplay>();
     }
 	
 	// Update is called once per frame
@@ -30,6 +32,7 @@ public class GameManager : MonoBehaviour {
         bowls.Add(pinFall);
         ActionMaster.Action nextAction = ActionMaster.NextAction(bowls);
         pinSetter.PerformAction(nextAction, GameManager.standingPins);
+        scoreDisplay.FillRollCard(bowls);
         ball.Reset();
         gutterBall.ballLeftBox = false;
     }

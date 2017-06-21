@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 504, y: 342}
-  m_MaxSize: {x: 12004, y: 8042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 11
+  controlID: 50
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -128,12 +128,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 971
+    width: 1052
     height: 635
-  m_MinSize: {x: 404, y: 342}
-  m_MaxSize: {x: 8004, y: 8042}
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 12
+  controlID: 51
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,12 +152,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 971
-    height: 285
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+    width: 1052
+    height: 342
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 13
+  controlID: 52
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,10 +174,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 288
-    height: 285
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 311
+    height: 342
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -197,12 +197,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 288
+    x: 311
     y: 0
-    width: 683
-    height: 285
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 741
+    height: 342
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -226,18 +226,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 285
-    width: 971
-    height: 350
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+    y: 342
+    width: 1052
+    height: 293
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,18 +252,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 971
+    x: 1052
     y: 0
-    width: 395
+    width: 314
     height: 635
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 21}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -286,10 +286,10 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 290
+    x: 313
     y: 92
-    width: 679
-    height: 264
+    width: 737
+    height: 321
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -298,10 +298,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -339.5
-    m_HBaseRangeMax: 339.5
-    m_VBaseRangeMin: -123.5
-    m_VBaseRangeMax: 123.5
+    m_HBaseRangeMin: -368.5
+    m_HBaseRangeMax: 368.5
+    m_VBaseRangeMin: -152
+    m_VBaseRangeMax: 152
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -318,25 +318,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 679
-      height: 247
+      width: 737
+      height: 304
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 339.5, y: 123.5}
+    m_Translation: {x: 368.5, y: 152}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -339.5
-      y: -123.5
-      width: 679
-      height: 247
+      x: -368.5
+      y: -152
+      width: 737
+      height: 304
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 679, y: 264}
+  m_LastWindowPixelSize: {x: 737, y: 321}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -364,31 +364,32 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
-    width: 286
-    height: 264
+    width: 309
+    height: 321
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 366e0000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: f893fdffa497fdff529bfdff069ffdffb2a2fdff62a6fdffeaa9fdffe4acfdffdcaffdff36b2fdff8eb4fdffdeb6fdff82bafdff36befdffc0c1fdff46c5fdff44c8fdff24cbfdff0ccefdffead0fdff40d3fdffc6d6fdff54dafdffdaddfdff58e1fdffd8e4fdff20e7fdff88eafdffe2ecfdff2eeffdff9af2fdff78f5fdff70f9fdff66fcfdff38fffdff7801feffe804feffd807feff940afeff240efeff8c11feff7414feff4c17feff9619feff801cfeff521ffeff3e22fefff624feffd627feff462bfeff0e2efeffe830feffc633feffa436feff8639feff783cfeff5a3ffeff4242feffb245feff1c49feff9c4cfeff0c50feffd052feff4656feff5e5bfeff7a5ffefff262feff6666feffd669feffd46cfeff9a6ffeffb272feff8275feff1479feff867cfeff907ffeff4882feffea85feff4089feffac8cfeffb48ffeff6692feffbc94feff0e98fefffc9afeffda9dfeff2ca1feff84a4feffe2a6feff34a9fefff2abfeff4aaffeffb4b1feff30b5feff88b7feffe8bafeff42bdfeffacc0feff04c3feff70c6feffc6c9feff30cdfeff68d0feffc4d3feff08d6feffe6d8feff9cdbfeff94defeff3ae1feff7ce4feff7ce7feff18eafeff5cedfeff96f0feffc6f3feffd8f6feff06fafeff3afdfeff4201fffffa03ffff8a06ffff8c0fffff8a18ffff5619ffff1a63ffff0264ffff0ef5ffffcefbffff000000006426000068260000b6260000
+    m_ExpandedIDs: ccfbffffcefbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Pin 1 (2)
+      m_OriginalName: Pin 1 (2)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -3238
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
-  m_ExpandedScenes: []
+  m_ExpandedScenes:
+  - Game
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -414,19 +415,19 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 290
+    x: 313
     y: 92
-    width: 679
-    height: 264
+    width: 737
+    height: 321
   m_SceneLighting: 1
-  lastFramingTime: 2003.726582513519
+  lastFramingTime: 138.8233645614112
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 150.94748, y: 205.58344, z: 1770.7406}
+    m_Target: {x: 3.2198155, y: -1.4999237, z: 1831.3762}
     speed: 2
-    m_Value: {x: 150.94748, y: 205.58344, z: 1770.7406}
+    m_Value: {x: 3.2198155, y: -1.4999237, z: 1831.3762}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -449,13 +450,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.32495195, y: -0.64102954, z: 0.3450615, w: -0.603672}
+    m_Target: {x: -0.7367876, y: 0.049891595, z: -0.054696426, w: -0.6720589}
     speed: 2
-    m_Value: {x: -0.32495195, y: -0.64102954, z: 0.3450615, w: -0.603672}
+    m_Value: {x: -0.7367877, y: 0.0498916, z: -0.05469643, w: -0.67205894}
   m_Size:
-    m_Target: 1041.3695
+    m_Target: 205.79355
     speed: 2
-    m_Value: 1041.3695
+    m_Value: 205.79355
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -488,9 +489,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 264
+    x: 313
     y: 92
-    width: 823
+    width: 737
     height: 343
 --- !u!114 &16
 MonoBehaviour:
@@ -543,9 +544,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 377
-    width: 969
-    height: 329
+    y: 434
+    width: 1050
+    height: 272
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -557,19 +558,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Editor
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Editor
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\turbolek\Documents\repos\Unity\Bowlmaster
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 2c250000
-    m_LastClickedID: 9516
-    m_ExpandedIDs: 00000000022500008e250000a4250000b025000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 133}
+    m_SelectedIDs: 70250000
+    m_LastClickedID: 9584
+    m_ExpandedIDs: 0000000014250000b2250000ce250000da250000e825000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,7 +598,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000022500008e250000a4250000b0250000
+    m_ExpandedIDs: 0000000014250000b2250000ce250000da250000e8250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -622,10 +623,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 366e0000
-    m_LastClickedInstanceID: 28214
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300000025000000000000ca250000cc250000d0250000d6250000
+    m_ExpandedInstanceIDs: c62300000025000000000000ca250000cc250000d0250000d6250000b83800002a260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -756,9 +757,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 973
+    x: 1054
     y: 92
-    width: 393
+    width: 312
     height: 614
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
@@ -788,9 +789,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 973
+    x: 1130
     y: 92
-    width: 393
+    width: 236
     height: 614
   m_IsSceneBased: 0
   m_TestTypeToolbarIndex: 1
@@ -861,7 +862,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/turbolek/Documents/repos/Unity/Bowlmaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.8938731
+      duration: 0.8580554
       messages: 
       output: 
       stacktrace: 
@@ -872,7 +873,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.3839983
+      duration: 0.3443723
       messages: 
       output: 
       stacktrace: 
@@ -883,7 +884,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0179568
+      duration: 0.0103164
       messages: 
       output: 
       stacktrace: 
@@ -894,7 +895,7 @@ MonoBehaviour:
       name: T01Bowl10ReturnsEndTurn
       fullName: ActionMasterTest.T01Bowl10ReturnsEndTurn
       resultStatus: 1
-      duration: 0.0141425
+      duration: 0.009395
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -907,7 +908,7 @@ MonoBehaviour:
       name: T02LessThan0PinsThrowsInvalidPinsException
       fullName: ActionMasterTest.T02LessThan0PinsThrowsInvalidPinsException
       resultStatus: 1
-      duration: 0.0113862
+      duration: 0.0119488
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -920,7 +921,7 @@ MonoBehaviour:
       name: T03MoreThan10PinsThrowsInvalidPinsException
       fullName: ActionMasterTest.T03MoreThan10PinsThrowsInvalidPinsException
       resultStatus: 1
-      duration: 0.0120631
+      duration: 0.0116852
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -933,7 +934,7 @@ MonoBehaviour:
       name: T04Bowl8ReturnsTidy
       fullName: ActionMasterTest.T04Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0131558
+      duration: 0.0127895
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -946,7 +947,7 @@ MonoBehaviour:
       name: T05Bowl2Bowl8ReturnsEndTurn
       fullName: ActionMasterTest.T05Bowl2Bowl8ReturnsEndTurn
       resultStatus: 1
-      duration: 0.0118817
+      duration: 0.0116334
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -959,7 +960,7 @@ MonoBehaviour:
       name: T06Bowl0ReturnsTidy
       fullName: ActionMasterTest.T06Bowl0ReturnsTidy
       resultStatus: 1
-      duration: 0.0117669
+      duration: 0.0085832
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -972,7 +973,7 @@ MonoBehaviour:
       name: T07Bowl0Bowl0ReturnsEndTurn
       fullName: ActionMasterTest.T07Bowl0Bowl0ReturnsEndTurn
       resultStatus: 1
-      duration: 0.0117724
+      duration: 0.0116693
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -985,7 +986,7 @@ MonoBehaviour:
       name: T08Bowl0Bowl0InTurn10ReturnsEndGame
       fullName: ActionMasterTest.T08Bowl0Bowl0InTurn10ReturnsEndGame
       resultStatus: 1
-      duration: 0.0117949
+      duration: 0.0114576
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -998,7 +999,7 @@ MonoBehaviour:
       name: T09Bowl10InTurn10ReturnsReset
       fullName: ActionMasterTest.T09Bowl10InTurn10ReturnsReset
       resultStatus: 1
-      duration: 0.0116227
+      duration: 0.0093031
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1011,7 +1012,7 @@ MonoBehaviour:
       name: T10Bowl5Bowl5InTurn10ReturnsReset
       fullName: ActionMasterTest.T10Bowl5Bowl5InTurn10ReturnsReset
       resultStatus: 1
-      duration: 0.0124764
+      duration: 0.0121956
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1024,7 +1025,7 @@ MonoBehaviour:
       name: T11Bowl10Bowl10InTurn10ReturnsReset
       fullName: ActionMasterTest.T11Bowl10Bowl10InTurn10ReturnsReset
       resultStatus: 1
-      duration: 0.0118821
+      duration: 0.0117291
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1037,7 +1038,7 @@ MonoBehaviour:
       name: T12Bowl10Bowl5InTurn10ReturnsTidy
       fullName: ActionMasterTest.T12Bowl10Bowl5InTurn10ReturnsTidy
       resultStatus: 1
-      duration: 0.0115845
+      duration: 0.0120888
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1050,7 +1051,7 @@ MonoBehaviour:
       name: T13Bowl10Bowl10Bowl10InTurn10ReturnsEndGame
       fullName: ActionMasterTest.T13Bowl10Bowl10Bowl10InTurn10ReturnsEndGame
       resultStatus: 1
-      duration: 0.0122512
+      duration: 0.0116787
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1063,7 +1064,7 @@ MonoBehaviour:
       name: T14Bowl0Bowl10ReturnsEndTurn
       fullName: ActionMasterTest.T14Bowl0Bowl10ReturnsEndTurn
       resultStatus: 1
-      duration: 0.0115518
+      duration: 0.0128184
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1076,7 +1077,7 @@ MonoBehaviour:
       name: T15Bowl0Bowl10Bowl3ReturnsTidy
       fullName: ActionMasterTest.T15Bowl0Bowl10Bowl3ReturnsTidy
       resultStatus: 1
-      duration: 0.0126916
+      duration: 0.0087768
       messages: 
       output: "You are trying to create a MonoBehaviour using the 'new' keyword.  This
         is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively,
@@ -1089,7 +1090,7 @@ MonoBehaviour:
       name: ScoreMasterTest
       fullName: ScoreMasterTest
       resultStatus: 1
-      duration: 0.4864792
+      duration: 0.4901629
       messages: 
       output: 
       stacktrace: 
@@ -1100,7 +1101,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ScoreMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0036535
+      duration: 0.0034752
       messages: 
       output: 
       stacktrace: 
@@ -1111,7 +1112,7 @@ MonoBehaviour:
       name: T01Bowl23
       fullName: ScoreMasterTest.T01Bowl23
       resultStatus: 1
-      duration: 0.0050801
+      duration: 0.0035569
       messages: 
       output: 
       stacktrace: 
@@ -1122,7 +1123,7 @@ MonoBehaviour:
       name: T02Bowl234
       fullName: ScoreMasterTest.T02Bowl234
       resultStatus: 1
-      duration: 0.0043275
+      duration: 0.003541
       messages: 
       output: 
       stacktrace: 
@@ -1133,7 +1134,7 @@ MonoBehaviour:
       name: T03Bowl2345
       fullName: ScoreMasterTest.T03Bowl2345
       resultStatus: 1
-      duration: 0.003555
+      duration: 0.0037295
       messages: 
       output: 
       stacktrace: 
@@ -1144,7 +1145,7 @@ MonoBehaviour:
       name: T04Bowl23456
       fullName: ScoreMasterTest.T04Bowl23456
       resultStatus: 1
-      duration: 0.0036973
+      duration: 0.0037971
       messages: 
       output: 
       stacktrace: 
@@ -1155,7 +1156,7 @@ MonoBehaviour:
       name: T05Bowl234561
       fullName: ScoreMasterTest.T05Bowl234561
       resultStatus: 1
-      duration: 0.0037528
+      duration: 0.0033525
       messages: 
       output: 
       stacktrace: 
@@ -1166,7 +1167,7 @@ MonoBehaviour:
       name: T06Bowl2345612
       fullName: ScoreMasterTest.T06Bowl2345612
       resultStatus: 1
-      duration: 0.0060532
+      duration: 0.0038572
       messages: 
       output: 
       stacktrace: 
@@ -1177,7 +1178,7 @@ MonoBehaviour:
       name: T07BowlX1
       fullName: ScoreMasterTest.T07BowlX1
       resultStatus: 1
-      duration: 0.0035867
+      duration: 0.0036543
       messages: 
       output: 
       stacktrace: 
@@ -1188,7 +1189,7 @@ MonoBehaviour:
       name: T08Bowl19
       fullName: ScoreMasterTest.T08Bowl19
       resultStatus: 1
-      duration: 0.0033688
+      duration: 0.0033212
       messages: 
       output: 
       stacktrace: 
@@ -1199,7 +1200,7 @@ MonoBehaviour:
       name: T09Bowl123455
       fullName: ScoreMasterTest.T09Bowl123455
       resultStatus: 1
-      duration: 0.0037794
+      duration: 0.0035577
       messages: 
       output: 
       stacktrace: 
@@ -1210,7 +1211,7 @@ MonoBehaviour:
       name: T10SpareBonus
       fullName: ScoreMasterTest.T10SpareBonus
       resultStatus: 1
-      duration: 0.0033983
+      duration: 0.0036609
       messages: 
       output: 
       stacktrace: 
@@ -1221,7 +1222,7 @@ MonoBehaviour:
       name: T11SpareBonus2
       fullName: ScoreMasterTest.T11SpareBonus2
       resultStatus: 1
-      duration: 0.0037024
+      duration: 0.0034094
       messages: 
       output: 
       stacktrace: 
@@ -1232,7 +1233,7 @@ MonoBehaviour:
       name: T12StrikeBonus
       fullName: ScoreMasterTest.T12StrikeBonus
       resultStatus: 1
-      duration: 0.0035643
+      duration: 0.0034504
       messages: 
       output: 
       stacktrace: 
@@ -1243,7 +1244,7 @@ MonoBehaviour:
       name: T13StrikeBonus3
       fullName: ScoreMasterTest.T13StrikeBonus3
       resultStatus: 1
-      duration: 0.0034294
+      duration: 0.0035484
       messages: 
       output: 
       stacktrace: 
@@ -1254,7 +1255,7 @@ MonoBehaviour:
       name: T14MultiStrikes
       fullName: ScoreMasterTest.T14MultiStrikes
       resultStatus: 1
-      duration: 0.0037014
+      duration: 0.0032345
       messages: 
       output: 
       stacktrace: 
@@ -1265,7 +1266,7 @@ MonoBehaviour:
       name: T15MultiStrikes3
       fullName: ScoreMasterTest.T15MultiStrikes3
       resultStatus: 1
-      duration: 0.003429
+      duration: 0.0033828
       messages: 
       output: 
       stacktrace: 
@@ -1276,7 +1277,7 @@ MonoBehaviour:
       name: T16TestGutterGame
       fullName: ScoreMasterTest.T16TestGutterGame
       resultStatus: 1
-      duration: 0.0045356
+      duration: 0.0041694
       messages: 
       output: 
       stacktrace: 
@@ -1287,7 +1288,7 @@ MonoBehaviour:
       name: T17TestAllOnes
       fullName: ScoreMasterTest.T17TestAllOnes
       resultStatus: 1
-      duration: 0.0036739
+      duration: 0.0035611
       messages: 
       output: 
       stacktrace: 
@@ -1298,7 +1299,7 @@ MonoBehaviour:
       name: T18TestAllStrikes
       fullName: ScoreMasterTest.T18TestAllStrikes
       resultStatus: 1
-      duration: 0.0041704
+      duration: 0.00421
       messages: 
       output: 
       stacktrace: 
@@ -1309,7 +1310,7 @@ MonoBehaviour:
       name: T19TestImmediateStrikeBonus
       fullName: ScoreMasterTest.T19TestImmediateStrikeBonus
       resultStatus: 1
-      duration: 0.0040593
+      duration: 0.003527
       messages: 
       output: 
       stacktrace: 
@@ -1320,7 +1321,7 @@ MonoBehaviour:
       name: T20SpareInLastFrame
       fullName: ScoreMasterTest.T20SpareInLastFrame
       resultStatus: 1
-      duration: 0.0039954
+      duration: 0.0035667
       messages: 
       output: 
       stacktrace: 
@@ -1331,7 +1332,7 @@ MonoBehaviour:
       name: T21StrikeInLastFrame
       fullName: ScoreMasterTest.T21StrikeInLastFrame
       resultStatus: 1
-      duration: 0.004468
+      duration: 0.0037491
       messages: 
       output: 
       stacktrace: 
@@ -1342,7 +1343,7 @@ MonoBehaviour:
       name: TG02GoldenCopyA
       fullName: ScoreMasterTest.TG02GoldenCopyA
       resultStatus: 1
-      duration: 0.0045464
+      duration: 0.0035661
       messages: 
       output: 
       stacktrace: 
@@ -1353,7 +1354,7 @@ MonoBehaviour:
       name: TG03GoldenCopyB1of3
       fullName: ScoreMasterTest.TG03GoldenCopyB1of3
       resultStatus: 1
-      duration: 0.0038191
+      duration: 0.003429
       messages: 
       output: 
       stacktrace: 
@@ -1364,7 +1365,7 @@ MonoBehaviour:
       name: TG03GoldenCopyB2of3
       fullName: ScoreMasterTest.TG03GoldenCopyB2of3
       resultStatus: 1
-      duration: 0.0038331
+      duration: 0.0035834
       messages: 
       output: 
       stacktrace: 
@@ -1375,7 +1376,7 @@ MonoBehaviour:
       name: TG03GoldenCopyB3of3
       fullName: ScoreMasterTest.TG03GoldenCopyB3of3
       resultStatus: 1
-      duration: 0.0039002
+      duration: 0.0033692
       messages: 
       output: 
       stacktrace: 
@@ -1386,7 +1387,7 @@ MonoBehaviour:
       name: TG03GoldenCopyC1of3
       fullName: ScoreMasterTest.TG03GoldenCopyC1of3
       resultStatus: 1
-      duration: 0.0038354
+      duration: 0.0034341
       messages: 
       output: 
       stacktrace: 
@@ -1397,20 +1398,20 @@ MonoBehaviour:
       name: TG03GoldenCopyC2of3
       fullName: ScoreMasterTest.TG03GoldenCopyC2of3
       resultStatus: 1
-      duration: 0.0040267
+      duration: 0.0035984
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T21StrikeInLastFrame (0.004s)
+    m_ResultText: Assembly-CSharp-Editor.dll (0.858s)
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2954b035
-      m_LastClickedID: 900748329
-      m_ExpandedIDs: 96342cd4be94dafbfe11d574ffffff7f
+      scrollPos: {x: 0, y: 86}
+      m_SelectedIDs: fe11d574
+      m_LastClickedID: 1960120830
+      m_ExpandedIDs: 96342cd4be94dafb14f33e51fe11d574ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

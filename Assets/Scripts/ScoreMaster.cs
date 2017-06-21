@@ -27,9 +27,6 @@ public class ScoreMaster : MonoBehaviour {
         int bowlsInCurrentFrame = 0;
         int currentFrame = 0;
         int lastScoredFrame = 0;
-        bool isSpare = false;
-        bool isStrike = false;
-        bool isFrameEnd = false;
         for (int i=0; i < bowls.Count; i++)
         {
             scores[currentFrame] += bowls[i];
@@ -45,21 +42,16 @@ public class ScoreMaster : MonoBehaviour {
                         lastScoredFrame = j;
                     }
                 }
-
             }
             bowlsInCurrentFrame++;
-            isFrameEnd = (bowlsInCurrentFrame >= 2 || scores[currentFrame] >= 10);
 
-            if (isFrameEnd)
+            if (bowlsInCurrentFrame >= 2 || scores[currentFrame] >= 10)
             {
-
-                isSpare = (scores[currentFrame] >= 10 && bowlsInCurrentFrame == 2);
-                isStrike = (scores[currentFrame] >= 10 && bowlsInCurrentFrame == 1);
-                if (isSpare)
+                if (scores[currentFrame] >= 10 && bowlsInCurrentFrame == 2)
                 {
                     bonusesAwarded[currentFrame] = 1;
                 }
-                else if (isStrike)
+                else if (scores[currentFrame] >= 10 && bowlsInCurrentFrame == 1)
                 {
                     bonusesAwarded[currentFrame] = 2;
                 }
@@ -73,12 +65,7 @@ public class ScoreMaster : MonoBehaviour {
                 bowlsInCurrentFrame = 0;
                 currentFrame++;
             }
-
         }
-
-
         return frameList;
     }
-
-
 }

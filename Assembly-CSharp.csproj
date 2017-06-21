@@ -57,7 +57,9 @@
      <Compile Include="Assets\Scripts\Pin.cs" />
      <Compile Include="Assets\Scripts\PinCounter.cs" />
      <Compile Include="Assets\Scripts\PinSetter.cs" />
+     <Compile Include="Assets\Scripts\ScoreDisplay.cs" />
      <Compile Include="Assets\Scripts\ScoreMaster.cs" />
+     <None Include="Assets\Hand painted bottle\readme.txt" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/turbolek/Documents/repos/Unity/Bowlmaster/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
